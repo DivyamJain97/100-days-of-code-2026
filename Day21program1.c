@@ -6,7 +6,7 @@ int main()
     printf("Enter a number: ");
     scanf("%d", &n);
     last = n % 10;
-    temp = n
+    temp = n;
     while(temp >= 10)
     {
         temp = temp / 10;
